@@ -15,6 +15,8 @@
 		017D26A315BCC32B001BC749 /* NLAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 017D26A215BCC32B001BC749 /* NLAppDelegate.m */; };
 		017D26A615BCC32B001BC749 /* NLViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 017D26A515BCC32B001BC749 /* NLViewController.m */; };
 		017D26B115BCC430001BC749 /* NLSpinWheel.m in Sources */ = {isa = PBXBuildFile; fileRef = 017D26B015BCC430001BC749 /* NLSpinWheel.m */; };
+		B1F20B3815BE354900741D82 /* wheel@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = B1F20B3615BE354900741D82 /* wheel@2x~ipad.png */; };
+		B1F20B3915BE354900741D82 /* wheel@2x~iphone.png in Resources */ = {isa = PBXBuildFile; fileRef = B1F20B3715BE354900741D82 /* wheel@2x~iphone.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +34,8 @@
 		017D26A515BCC32B001BC749 /* NLViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NLViewController.m; sourceTree = "<group>"; };
 		017D26AF15BCC430001BC749 /* NLSpinWheel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NLSpinWheel.h; sourceTree = "<group>"; };
 		017D26B015BCC430001BC749 /* NLSpinWheel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NLSpinWheel.m; sourceTree = "<group>"; };
+		B1F20B3615BE354900741D82 /* wheel@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "wheel@2x~ipad.png"; sourceTree = "<group>"; };
+		B1F20B3715BE354900741D82 /* wheel@2x~iphone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "wheel@2x~iphone.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +88,8 @@
 				017D26A515BCC32B001BC749 /* NLViewController.m */,
 				017D26AF15BCC430001BC749 /* NLSpinWheel.h */,
 				017D26B015BCC430001BC749 /* NLSpinWheel.m */,
+				B1F20B3615BE354900741D82 /* wheel@2x~ipad.png */,
+				B1F20B3715BE354900741D82 /* wheel@2x~iphone.png */,
 				017D269915BCC32B001BC749 /* Supporting Files */,
 			);
 			path = WheelOfLunch;
@@ -153,6 +159,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				017D269D15BCC32B001BC749 /* InfoPlist.strings in Resources */,
+				B1F20B3815BE354900741D82 /* wheel@2x~ipad.png in Resources */,
+				B1F20B3915BE354900741D82 /* wheel@2x~iphone.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,6 +284,7 @@
 				017D26AE15BCC32B001BC749 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
